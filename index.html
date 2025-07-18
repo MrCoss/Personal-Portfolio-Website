@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costas Pinto - Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="container">
+            <a href="#" class="logo">Costas Pinto</a>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="container about-section">
+            <img src="assets/profile-icon.png" alt="Avatar of Costas Pinto" class="avatar">
+            <div class="about-content">
+                <h1>Hi, I'm Costas Pinto! 👋</h1>
+                <p class="about-text">
+                    I am a full stack developer with 2 years of experience in both application and presentation layers. I have worked on applications and microservices deployed on AWS Cloud. I am an avid user of IBM Watson services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="card skill-card">
+                    <img src="assets/html-icon.png" alt="HTML Icon" class="skill-icon">
+                    <h3>HTML</h3>
+                    <p>2 years experience</p>
+                </div>
+                <div class="card skill-card">
+                    <img src="assets/javascript-icon.png" alt="JavaScript Icon" class="skill-icon">
+                    <h3>JavaScript</h3>
+                    <p>1.5 years experience</p>
+                </div>
+                <div class="card skill-card">
+                    <img src="assets/java-icon.png" alt="Java Icon" class="skill-icon">
+                    <h3>Java</h3>
+                    <p>5 years experience</p>
+                </div>
+                <div class="card skill-card">
+                    <img src="assets/react-icon.png" alt="React Icon" class="skill-icon">
+                    <h3>React</h3>
+                    <p>1 year experience</p>
+                </div>
+                <div class="card skill-card">
+                    <img src="assets/nodejs-icon.png" alt="Node.js Icon" class="skill-icon">
+                    <h3>Node.js</h3>
+                    <p>1 years experience</p>
+                </div>
+                <div class="card skill-card">
+                    <img src="assets/css-icon.png" alt="CSS Icon" class="skill-icon">
+                    <h3>CSS</h3>
+                    <p>2 years experience</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Chatbot</h3>
+                <ul>
+                    <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Sentiment Analyzer</h3>
+                <ul>
+                    <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Fashion Website</h3>
+                <ul>
+                    <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using Stripe for payment gateway.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="recommendations" class="container">
+            <h2>Recommendations</h2>
+            <div class="recommendations-grid">
+                <div class="card rec-card">
+                    <p>"Costas is a very quick learner and quickly grasps key concepts of web development. He is a very passionate developer and an excellent team player. He has a curious mind and is always ready to learn. He owns his work end to end and has potential to lead the team."</p>
+                </div>
+                <div class="card rec-card">
+                    <p>"Working with Costas has been an awesome experience. He is highly knowledgeable and always goes the extra mile to make sure everything is right. For any future projects that need his expertise, I would definitely want to work with him again."</p>
+                </div>
+                <div class="card rec-card">
+                    <p>"I had worked along with Costas during the initial phase of our venture which needed quick development. Costas is a wonderful resource who has in-depth knowledge about his domain. He will be an asset for any organisation."</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <img src="assets/mail-icon.png" alt="Email" class="contact-icon">
+                    <a href="mailto:costas.pinto@example.com">costas.pinto@example.com</a>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/phone-icon.png" alt="Phone" class="contact-icon">
+                    <p>+91 12345 67890</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="form-section" class="container">
+            <h2>Leave a Recommendation</h2>
+            <form id="rec-form">
+                <input type="text" id="name" name="name" placeholder="Name (Optional)">
+                <textarea id="recommendation-text" name="recommendation" rows="6" placeholder="Leave a recommendation..." required></textarea>
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <a href="#" class="back-to-top" aria-label="Back to top">↑</a>
+    
+    <script src="script.js"></script>
+</body>
+</html>
